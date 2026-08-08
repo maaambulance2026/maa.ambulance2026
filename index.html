@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maa Ambulance Service - reliable ambulance service in Daulatpur, Kushtia.">
+  <title>Maa Ambulance Service | Daulatpur, Kushtia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#home"><span>🚑</span> Maa Ambulance</a>
+      <button class="menu" aria-label="Open menu">☰</button>
+      <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#booking">Booking</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge">24/7 Ambulance Service</span>
+          <h1>Fast, Safe & Caring Ambulance Service</h1>
+          <p>Maa Ambulance Service provides dependable patient transportation from Daulatpur, Kushtia and surrounding areas.</p>
+          <div class="buttons">
+            <a class="btn primary" href="tel:+8801832173395">📞 Call Now</a>
+            <a class="btn whatsapp" href="https://wa.me/8801775535699" target="_blank" rel="noopener">💬 WhatsApp</a>
+          </div>
+          <p class="location">📍 Daulatpur Hospital Gate, Daulatpur, Kushtia</p>
+        </div>
+        <div class="ambulance-card">
+          <div class="ambulance-icon">🚑</div>
+          <h2>Maa Ambulance</h2>
+          <p>Available for hospital transfers, patient transport and emergency journeys.</p>
+          <div class="quick">
+            <div><strong>24/7</strong><span>Service</span></div>
+            <div><strong>AC</strong><span>Ambulance</span></div>
+            <div><strong>GPS</strong><span>Planned</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-title"><span>OUR SERVICES</span><h2>Ambulance services you can depend on</h2></div>
+        <div class="cards">
+          <article class="card"><div class="icon">🚨</div><h3>Emergency Transport</h3><p>Quick ambulance support for urgent patient transportation.</p></article>
+          <article class="card"><div class="icon">🏥</div><h3>Hospital Transfer</h3><p>Safe transfers between hospitals, clinics and healthcare facilities.</p></article>
+          <article class="card"><div class="icon">🛏️</div><h3>Patient Transport</h3><p>Comfortable transportation for patients who need assisted travel.</p></article>
+          <article class="card"><div class="icon">❄️</div><h3>Air-Conditioned</h3><p>Air-conditioned Toyota Lite Ace ambulance for improved comfort.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="section booking">
+      <div class="container booking-grid">
+        <div>
+          <div class="section-title left"><span>ONLINE BOOKING</span><h2>Request an ambulance</h2></div>
+          <p>Fill in the form and your request will open in WhatsApp so you can send it directly to Maa Ambulance.</p>
+          <div class="notice">For urgent emergencies, please call directly rather than waiting for the online form.</div>
+        </div>
+        <form id="bookingForm">
+          <label>Name<input id="name" required placeholder="Patient / caller name"></label>
+          <label>Phone<input id="phone" required type="tel" placeholder="Your phone number"></label>
+          <label>Pickup location<input id="pickup" required placeholder="Where should we pick up?"></label>
+          <label>Destination<input id="destination" required placeholder="Hospital / destination"></label>
+          <label>Preferred date & time<input id="datetime" required type="datetime-local"></label>
+          <label>Message<textarea id="message" rows="3" placeholder="Additional information"></textarea></label>
+          <button class="btn primary full" type="submit">Send Booking Request on WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-title"><span>ABOUT US</span><h2>Maa Ambulance Service</h2></div>
+        <p class="about-text">Maa Ambulance Service is based at Daulatpur Hospital Gate, Daulatpur, Kushtia. Our goal is to provide prompt, safe and respectful ambulance transportation for patients and families.</p>
+        <div class="features">
+          <div>✓ Reliable service</div><div>✓ Professional care</div><div>✓ Comfortable AC vehicle</div><div>✓ Local & longer-distance transport</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-box">
+        <div><div class="section-title left"><span>CONTACT</span><h2>Need an ambulance?</h2></div><p>Call us directly for urgent service.</p></div>
+        <div class="contact-actions">
+          <a class="btn primary" href="tel:+8801832173395">01832-173395</a>
+          <a class="btn whatsapp" href="https://wa.me/8801775535699" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="email" href="mailto:maa.ambulance@gmail.com">maa.ambulance@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><strong>🚑 Maa Ambulance Service</strong><span>Daulatpur, Kushtia</span><span>© <span id="year"></span> Maa Ambulance</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
